@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Aesthetic Daily Planner</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f3ef; /* soft beige */
+  color: #333;
+}
+
+.planner-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  border: 1px solid #e0dfdb;
+}
+
+.planner-title {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: #5c7d5c; /* muted green */
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.planner-section {
+  margin-bottom: 30px;
+}
+
+.planner-section h2 {
+  font-size: 1.5rem;
+  color: #6e8b6e;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d9d6d0;
+  padding-bottom: 5px;
+}
+
+.planner-section textarea,
+.planner-section input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f7;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.planner-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.planner-section ul li {
+  margin-bottom: 8px;
+}
+
+.water-tracker {
+  margin-top: 10px;
+}
+
+.water-tracker label {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.schedule-grid div input {
+  width: 80%;
+}
+
+@media (max-width: 600px) {
+  .planner-container {
+    padding: 20px;
+  }
+  .planner-title {
+    font-size: 2rem;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="planner-container">
+    <h1 class="planner-title">Hey, Ndilly! 🌿</h1>
+    
+    <section class="planner-section">
+      <h2>Morning Mindset</h2>
+      <textarea placeholder="How do I want to feel today?"></textarea>
+    </section>
+
+    <section class="planner-section">
+      <h2>Top Priorities</h2>
+      <ul>
+        <li><input type="checkbox"> Learn French</li>
+        <li><input type="checkbox"> Put God first</li>
+        <li><input type="checkbox"> Save money better</li>
+      </ul>
+    </section>
+
+    <section class="planner-section">
+      <h2>Self-Care Focus</h2>
+      <textarea placeholder="How will I care for myself today?"></textarea>
+    </section>
+
+    <section class="planner-section">
+      <h2>Meals & Water Intake</h2>
+      <p>Breakfast: <input type="text"></p>
+      <p>Lunch: <input type="text"></p>
+      <p>Dinner: <input type="text"></p>
+      <div class="water-tracker">
+        <span>Water:</span>
+        <label><input type="checkbox"></label>
+        <label><input type="checkbox"></label>
+        <label><input type="checkbox"></label>
+        <label><input type="checkbox"></label>
+        <label><input type="checkbox"></label>
+        <label><input type="checkbox"></label>
+        <label><input type="checkbox"></label>
+        <label><input type="checkbox"></label>
+      </div>
+    </section>
+
+    <section class="planner-section">
+      <h2>Schedule</h2>
+      <div class="schedule-grid">
+        <div>08:00 - <input type="text"></div>
+        <div>09:00 - <input type="text"></div>
+        <div>10:00 - <input type="text"></div>
+        <div>11:00 - <input type="text"></div>
+      </div>
+    </section>
+
+    <section class="planner-section">
+      <h2>Gratitude</h2>
+      <textarea placeholder="What am I grateful for today?"></textarea>
+    </section>
+
+    <section class="planner-section">
+      <h2>Reflections</h2>
+      <textarea placeholder="What went well?"></textarea>
+      <textarea placeholder="What can I improve?"></textarea>
+    </section>
+  </div>
+</body>
+</html>
