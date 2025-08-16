@@ -3,10 +3,11 @@
 A personal  daily productivity tool designed to help you plan your day, track tasks, and monitor your mindset for better focus and well-being.
 
 ## 🌟 Features to be implemented in the future
-- ✅ Add, edit, and delete daily tasks
-- ⏱ Timer for focused work sessions
-- 📊 Mood tracking with daily summaries
-- 📈 Analytics for personal growth trends
+- ✅ Add, edit, and delete daily tasks - soon!
+- ⏱ Timer for focused work sessions - soon!
+- 📊 Mood tracking with daily summaries - soon!
+- 📈 Analytics for personal growth trends- soon!
+- Journal your day
 
 ## 🛠 Tech Stack
 - HTML, CSS, JavaScript
@@ -18,4 +19,4 @@ A personal  daily productivity tool designed to help you plan your day, track ta
 ## 🚀 Setup
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/YourUsername/daily-mindset-tracker.git
+   git clone https://github.com/Ndilly/daily-mindset-tracker.git
